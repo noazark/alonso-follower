@@ -1,0 +1,22 @@
+{
+  "author": "Noah H. Smith <nsmith@rendergardenmedia.com>",
+  "name": "alonso-follower",
+  "description": "Distributed log file aggregation, with persistence",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noazark/alonso-follower.git"
+  },
+  "main": "./lib/alonso-follower",
+  "bin": {
+    "alonso-follower": "./bin/alonso-follower"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "hook.io": "0.8.9"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
